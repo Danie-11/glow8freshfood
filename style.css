@@ -17,8 +17,9 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header img {
-  height: 60px;
+   header img {
+  height: 90px;   /* taille plus grande */
+  margin-right: 15px;
 }
 nav a {
   margin: 0 10px;
