@@ -82,3 +82,16 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+/* Section Commande */
+#commande form input,
+#commande form textarea {
+  width: 90%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+#commande form button {
+  cursor: pointer;
+}
