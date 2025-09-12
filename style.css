@@ -121,3 +121,12 @@ footer {
   font-weight: bold;
   color: #064420;
 }
+.gallery-item img {
+  width: 100%;          /* occupe toute la largeur du bloc */
+  height: 200px;        /* hauteur fixe */
+  object-fit: contain;  /* garde les proportions sans déformation */
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  padding: 5px;
+}
