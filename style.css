@@ -130,3 +130,58 @@ footer {
   background: #fff;
   padding: 5px;
 }
+/* Disposition des produits */
+.produits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+/* Chaque catégorie */
+.produit-colonne {
+  flex: 1 1 300px;
+  background: #fafaf7;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Images */
+.produit-colonne img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* Titres */
+.produit-colonne h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #3e3e3e;
+  margin-bottom: 0.5rem;
+}
+
+/* Texte */
+.produit-colonne p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .produits {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .produit-colonne {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
