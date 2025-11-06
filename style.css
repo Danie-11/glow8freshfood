@@ -16,11 +16,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 80px;  /* hauteur plus naturelle */
+  min-height: 75px;  /* hauteur plus naturelle */
 }
    header img {
-  height: 90px;   /* taille plus grande */
+  height: 70px;   /* taille plus grande */
   margin-right: 15px;
+  vertical-align: middle;
 }
 nav a {
   margin: 0 10px;
