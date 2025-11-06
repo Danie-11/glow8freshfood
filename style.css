@@ -229,3 +229,43 @@ footer {
 .contact-mini a:hover {
   text-decoration: underline;
 }
+.card img {
+  width: 100%;
+  height: 250px;  /* ou 220px si tu veux plus compact */
+  object-fit: cover; /* garde les proportions sans déformer */
+  border-radius: 10px;
+}
+/* Effet hover sur les cartes produits */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Fond doux pour la section "Passer commande" */
+#commande {
+  background: #f8faf8; /* léger vert-beige clair */
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Lien WhatsApp visuellement mis en avant */
+.btn-wa {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-wa:hover {
+  background: #1da851;
+}
