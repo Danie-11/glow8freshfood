@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 900px;  /* pour laisser la place au logo */
+  min-height: 80px;  /* hauteur plus naturelle */
 }
    header img {
   height: 90px;   /* taille plus grande */
