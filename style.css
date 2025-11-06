@@ -269,3 +269,52 @@ footer {
 .btn-wa:hover {
   background: #1da851;
 }
+/* Ajustements mobile */
+@media (max-width: 768px) {
+
+  /* Réduit le logo et l'espacement du header */
+  header {
+    padding: 0.8rem 1rem;
+    min-height: auto;
+  }
+  header img {
+    height: 55px;
+  }
+  nav a {
+    margin: 0 6px;
+    font-size: 0.95rem;
+  }
+
+  /* Réduit le titre hero */
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* Réduit le titre "Pourquoi nous choisir" */
+  .hero h2,
+  .section h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Ajuste les marges globales */
+  .section {
+    padding: 1.2rem;
+  }
+
+  /* Cartes produits plus compactes */
+  .card {
+    padding: 0.8rem;
+  }
+  .card img {
+    height: 180px;
+  }
+
+  /* Titre footer + texte plus petit */
+  footer {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
